@@ -5,22 +5,22 @@ const GO_NEXT = "GO_NEXT",
 export default {
   namespaced: true,
   state: {
-    currentPage: 1
+    currentStep: 1
   },
   getters: {
-    currentPage(state) {
-      return state.currentPage;
+    currentStep(state) {
+      return state.currentStep;
     }
   },
   mutations: {
     [GO_NEXT](state) {
-        state.currentPage++
+        state.currentStep++
     },
     [GO_PREV](state) {
-        state.currentPage--
+        state.currentStep--
     },
     [RESET_PAGE](state) {
-        state.currentPage = 1
+        state.currentStep = 1
     }
   },
   actions: {
@@ -30,7 +30,7 @@ export default {
     prev({commit}) {
       commit(GO_PREV);
     },
-    resetCurrentPage({commit}) {
+    resetCurrentState({commit}) {
         commit(RESET_PAGE);
     }
   }

@@ -31,11 +31,11 @@
         },
         computed: {
             currentStep() {
-                return this.$store.getters["form/currentPage"] 
+                return this.$store.getters["form/currentStep"] 
             }
         },
         created() {
-            this.$store.dispatch('form/resetCurrentPage')
+            this.$store.dispatch('form/resetCurrentStep')
         },
         methods: {
             buttonText() {
