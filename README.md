@@ -2,25 +2,5 @@
 
 ![Alt Vue App Flavor](./vue-app-flavor.gif)
 
-## Project setup
-```
-yarn install
-```
+These project try to show how to handle dinamic headers (like an app commonly works) using Vuex and Vue Router
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
