@@ -1,5 +1,7 @@
 # vue-app-flavor
 
+![Alt Vue App Flavor](./vue-app-flavor.gif)
+
 ## Project setup
 ```
 yarn install
